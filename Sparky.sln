@@ -5,7 +5,12 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparky", "Sparky\Sparky.csproj", "{DC9F2A76-A6BD-495A-B535-76993A2F766D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkyMSTest", "SparkyMSTest\SparkyMSTest.csproj", "{5318DB1E-7219-493E-BB66-AC6D1D6B5289}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparkyMSTest", "SparkyMSTest\SparkyMSTest.csproj", "{5318DB1E-7219-493E-BB66-AC6D1D6B5289}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparkyNUnitTest", "SparkyNUnitTest\SparkyNUnitTest.csproj", "{F09EF3BE-14CA-4AC4-ABF9-0A9EA2649A5B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC9F2A76-A6BD-495A-B535-76993A2F766D} = {DC9F2A76-A6BD-495A-B535-76993A2F766D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{5318DB1E-7219-493E-BB66-AC6D1D6B5289}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5318DB1E-7219-493E-BB66-AC6D1D6B5289}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5318DB1E-7219-493E-BB66-AC6D1D6B5289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09EF3BE-14CA-4AC4-ABF9-0A9EA2649A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09EF3BE-14CA-4AC4-ABF9-0A9EA2649A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09EF3BE-14CA-4AC4-ABF9-0A9EA2649A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09EF3BE-14CA-4AC4-ABF9-0A9EA2649A5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

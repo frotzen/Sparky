@@ -1,11 +1,11 @@
-﻿
+﻿using NUnit.Framework;
 
 namespace Sparky
 {
-    [TestClass]
-    public class CalculatorMSTests
+    [TestFixture]
+    public class CalculatorNUnitTests
     {
-        [TestMethod]
+        [Test]
         public void AddNumbers_InputTwoInt_GetCorrectAddition()
         {
             // Arrange
@@ -15,7 +15,8 @@ namespace Sparky
             int result = calc.AddNumbers(10, 20);
 
             // Assert
-            Assert.AreEqual(30, result);
+            Assert.That(30, Is.EqualTo(result));
         }
+
     }
 }
